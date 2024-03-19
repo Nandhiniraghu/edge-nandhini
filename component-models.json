@@ -204,5 +204,24 @@
         "value": ""
       }
     ]
+  },
+  {
+    "id": "download",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text-input",
+        "valueType": "string",
+        "name": "download-text",
+        "label": "Text",
+        "value": ""
+      }
+    ]
   }
 ]
