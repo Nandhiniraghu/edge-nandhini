@@ -1,0 +1,44 @@
+.download .block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.downloadContainer {
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px auto;
+    max-width: 475px;
+    padding: 24px 4%;
+}
+
+.downloadTitle {
+    margin: 9px 0;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.downloadDescription {
+    margin: 9px 0;
+    text-align: center;
+}
+
+.downloadAction {
+    margin: 9px 0;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+.downloadAction:after {
+    content: "→";
+    padding-left: 8px;
+    line-height: 1;
+}
+
