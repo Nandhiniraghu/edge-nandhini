@@ -27,26 +27,14 @@
       "title",
       "hero",
       "cards",
-      "columns"
+      "columns",
+      "quote"
     ]
   },
   {
     "id": "cards",
     "components": [
       "card"
-    ]
-  },
-  {
-    "id": "section",
-    "components": [
-      "text",
-      "image",
-      "button",
-      "title",
-      "hero",
-      "cards",
-      "columns",
-      "quote"
     ]
   }
 ]
